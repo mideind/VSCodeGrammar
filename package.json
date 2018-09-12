@@ -1,0 +1,26 @@
+{
+    "name": "grammar",
+    "displayName": "Reynir grammar",
+    "description": "Syntax coloring for Reynir grammar files",
+    "version": "0.0.1",
+    "publisher": "Miðeind ehf",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "grammar",
+            "aliases": ["Reynir grammar", "grammar"],
+            "extensions": [".grammar"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "grammar",
+            "scopeName": "source.grammar",
+            "path": "./syntaxes/grammar.tmLanguage"
+        }]
+    }
+}
