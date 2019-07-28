@@ -50,7 +50,7 @@
 			<key>comment</key>
 			<string>Terminals starting with a lowercase letter</string>
 			<key>match</key>
-			<string>\b([[:lower:]][[:alpha:]]*)</string>
+			<string>\b([[:lower:]][[:alnum:]]*)</string>
 			<key>name</key>
 			<string>storage.type.class.grammar</string>
 		</dict>
@@ -66,7 +66,7 @@
 			<key>comment</key>
 			<string>Variants starting with a forward slash</string>
 			<key>match</key>
-			<string>/([[:lower:]]+)</string>
+			<string>/([[:lower:]][[:alnum:]]*)</string>
 			<key>name</key>
 			<string>entity.name.function.decorator.grammar emphasis</string>
 		</dict>
@@ -74,7 +74,7 @@
 			<key>comment</key>
 			<string>Nonterminal definitions</string>
 			<key>match</key>
-			<string>^([[:upper:]][[:alpha:]]*)</string>
+			<string>^([[:upper:]][[:alnum:]]*)</string>
 			<key>name</key>
 			<string>strong</string>
 		</dict>
@@ -84,7 +84,7 @@
 			<key>match</key>
 			<string>^\$([[:lower:]][[:word:]]*)</string>
 			<key>name</key>
-			<string>meta.selector emphasis</string>
+			<string>invalid</string>
 		</dict>
 	</array>
 	<key>repository</key>

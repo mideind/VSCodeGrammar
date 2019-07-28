@@ -4,6 +4,11 @@
     "description": "Syntax coloring for Reynir grammar files",
     "version": "0.0.1",
     "publisher": "Mideind",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vthorsteinsson/VSCodeGrammar.git"
+    },
+    "homepage": "https://github.com/vthorsteinsson/VSCodeGrammar/blob/master/README.md",
     "engines": {
         "vscode": "^1.27.0"
     },
