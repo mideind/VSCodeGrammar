@@ -3,7 +3,7 @@
     "displayName": "Reynir grammar",
     "description": "Syntax coloring for Reynir grammar files",
     "version": "0.0.1",
-    "publisher": "Miðeind ehf",
+    "publisher": "Mideind",
     "engines": {
         "vscode": "^1.27.0"
     },
