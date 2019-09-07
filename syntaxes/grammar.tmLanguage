@@ -26,9 +26,9 @@
 			<key>comment</key>
 			<string>Production arrow</string>
 			<key>match</key>
-			<string>→|-&gt;</string>
+			<string>&#8594;|\-&gt;</string>
 			<key>name</key>
-			<string>invalid</string>
+			<string>keyword.other.grammar</string>
 		</dict>
 		<dict>
 			<key>comment</key>
