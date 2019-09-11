@@ -2,7 +2,7 @@
     "name": "grammar",
     "displayName": "Reynir grammar",
     "description": "Syntax coloring for Reynir grammar files",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Mideind",
     "repository": {
         "type": "git",

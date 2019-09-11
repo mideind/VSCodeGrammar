@@ -76,7 +76,7 @@
 			<key>match</key>
 			<string>^([[:upper:]][[:alnum:]]*)</string>
 			<key>name</key>
-			<string>strong</string>
+			<string>source.grammar strong</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -84,7 +84,7 @@
 			<key>match</key>
 			<string>^\$([[:lower:]][[:word:]]*)</string>
 			<key>name</key>
-			<string>invalid</string>
+			<string>keyword.other.grammar</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -128,7 +128,7 @@
 							<key>match</key>
 							<string>:([[:lower:]][[:alpha:]]*)</string>
 							<key>name</key>
-							<string>storage.type.class.grammar</string>
+							<string>constant.numeric.integer.decimal.grammar</string>
 						</dict>
 					</array>
 					<key>end</key>
@@ -163,7 +163,7 @@
 							<key>match</key>
 							<string>:([[:lower:]][[:alpha:]]*)</string>
 							<key>name</key>
-							<string>storage.type.class.grammar</string>
+							<string>constant.numeric.integer.decimal.grammar</string>
 						</dict>
 					</array>
 					<key>end</key>
