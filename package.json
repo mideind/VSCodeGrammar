@@ -1,14 +1,14 @@
 {
     "name": "grammar",
-    "displayName": "Reynir grammar",
-    "description": "Syntax coloring for Reynir grammar files",
+    "displayName": "Greynir grammar",
+    "description": "Syntax coloring for Greynir grammar files",
     "version": "0.0.2",
     "publisher": "Mideind",
     "repository": {
         "type": "git",
-        "url": "https://github.com/vthorsteinsson/VSCodeGrammar.git"
+        "url": "https://github.com/mideind/VSCodeGrammar.git"
     },
-    "homepage": "https://github.com/vthorsteinsson/VSCodeGrammar/blob/master/README.md",
+    "homepage": "https://github.com/mideind/VSCodeGrammar/blob/master/README.md",
     "engines": {
         "vscode": "^1.27.0"
     },
@@ -18,7 +18,7 @@
     "contributes": {
         "languages": [{
             "id": "grammar",
-            "aliases": ["Reynir grammar", "grammar"],
+            "aliases": ["Greynir grammar", "grammar"],
             "extensions": [".grammar"],
             "configuration": "./language-configuration.json"
         }],
