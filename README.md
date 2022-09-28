@@ -2,14 +2,19 @@
 
 This extension shows .grammar files with nice syntax coloring in VSCode.
 
-## Features
+## Installation
 
-Here is an example of a feature:
+You can manually install a VS Code extension packaged in a .vsix file using the
+Install from VSIX command in the Extensions view command dropdown, or the
+Extensions: Install from VSIX command in the Command Palette. Just point to the .vsix file
+included in this repository.
 
-\!\[feature X\]\(images/feature-x.png\)
+Alternatively, copy `syntaxes/grammar.tmLanguage` to your `.vscode` configuration
+directory:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+```
+cp syntaxes/grammar.tmLanguage ~/.vscode/extensions/VSCodeGrammar/syntaxes/
+```
 
-## Release Notes
 
-There are currently no release notes.
+
